@@ -1,36 +1,31 @@
 #1 part of homework
 
-print("Please enter your name:")
-name = input()
+name = input("Please enter your name: ")
 print(name)
-print("Please enter your surname:")
-surname = input()
+surname = input("Please enter your surname:")
 print(surname)
 #2 part of homework
 my_number = 7
-print("Please enter you number")
-number = input()
+number = input("Please enter you number: ")
 print(my_number + int(number))
 #3 part of homework
+print(" ")
 x = 3
 y = 5
 t = 10
-print((x+y+t)/3)
+print(int((x+y+t)/3))
 #4 part of homework
 #stringi gamravlebuli 5
-print("Please enter string")
-string = input ()
+string = input ("Please enter string: ")
 print(string*5)
 #int gamravlebuli 5
-print("Please enter integer")
-integer = input ()
+
+integer = int(input ("Please enter integer: "))
 print(int(integer)*5)
 #final part
-print("Please enter integer")
-num1 = input()
-print("Please enter integer")
-num2 = input()
-print(int(num1)+int(num2))
-print(int(num1)-int(num2))
-print(int(num1)/int(num2))
-print(int(num1)*int(num2))
+num1 = int(input("Please enter 1st number: "))
+num2 = int(input("Please enter 2nd number: "))
+print(num1+num2)
+print(num1-num2)
+print(num1/num2)
+print(num1*num2)
