@@ -23,12 +23,14 @@ if num == 0:
     print("it's equal to zero")
 
 #homework numero 5
+
 age = int(input("Please enter your age: "))
 if age > 18:
     print("you are an adult")
 else:
     print("you are a virgin")
 #homework numero 6(final)
+
 num1 = int(input("Please select number from 1 to 7: "))
 if num1 == 1:
     print("Monday")
