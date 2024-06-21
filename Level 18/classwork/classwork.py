@@ -8,8 +8,8 @@
 
 
 names = ["giorgi", 'giorgi', "nino", "mari"]
-
-for name in names(names):
+name = names
+for name in names():
     if name =="giorgi":
         print("hello user")
     else:
