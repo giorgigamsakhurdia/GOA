@@ -1,0 +1,1 @@
+#ver mivxvdi rogor meqne chanawersac vuyure mara mainc
