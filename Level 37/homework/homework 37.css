@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(255, 0, 0);
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size:45px;
+}
+h3{
+    font-size: 37px;
+}
+.spider{
+    text-align: center;
+    color:#0000FF;
+    font-style: italic;
+}
+#sotry{
+    font-size: 25px;
+}
+.stan{
+    font-size: 25px;
+}
