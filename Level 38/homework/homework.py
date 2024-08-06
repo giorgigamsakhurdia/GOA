@@ -1,0 +1,1 @@
+print("meti ver gavige nu meti ra 1 ver gavige")
