@@ -1,0 +1,22 @@
+.first{
+ 
+    text-align: center;
+    text-decoration: dashed;
+}
+.second{
+    
+    text-align: left;
+    text-decoration: dotted;
+}
+.third{
+    text-align: right;
+    text-decoration: solid;
+}
+.fourth{
+    text-align: center;
+    text-decoration:double;
+}
+.fifth{
+    text-align: center;
+    text-decoration: wavy;
+}

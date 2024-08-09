@@ -1,0 +1,41 @@
+#helo{
+    text-decoration: underline dotted green;
+    text-align: right;
+}
+#world{
+    text-decoration: line-through;
+    text-align: center;
+}
+#ex{
+    color: red;
+}
+#goal{
+    text-align: center;
+    text-decoration: underline;
+}
+#orie{
+    text-align: right;
+    text-decoration: line-through dotted green;
+}
+#aca{
+    text-decoration: line-through solid;
+}
+#is{
+    text-decoration: overline solid;
+}
+#the{
+    text-align: right;
+    text-decoration: overline solid green;
+    color: green;
+}
+#best{
+    text-align: center;
+    text-decoration:overline grey;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: boldS;
+}
+#one{
+    text-align: right;
+    text-decoration: underline dotted green;
+}
