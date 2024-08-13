@@ -1,0 +1,1 @@
+print("rac ver gavige ar ari aq")
