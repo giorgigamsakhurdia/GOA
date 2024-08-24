@@ -1,0 +1,44 @@
+* {
+    font-family: Roboto;
+
+}
+
+#dd{
+
+    border-collapse: collapse;
+
+
+}
+
+
+.gg{  
+    background-color: #019879;
+    color: white;
+    border: solid;
+    border-radius: 2px;
+    border-color: black;
+    word-spacing: 30px;
+
+
+
+}
+.meore{
+    color: #019879;
+    border: solid;
+    border-radius: 2px;
+    border-color: black;
+    word-spacing: 35px;
+
+}
+.pir{
+    border: solid;
+    border-radius: 2px;
+    border-color: black;
+    word-spacing: 30px;
+}
+.mes{
+    border: solid;
+    border-radius: 2px;
+    border-color: black;
+    word-spacing: 35px;
+}
