@@ -1,0 +1,134 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url(https://business-sweden.imagevault.media/publishedmedia/3a2j6j9jdw20hd4jrbb6/SEOUL_ciaran-o-brien-qegMLAiTBA4-unsplash.jpg);
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+#first{
+    font-size: 50px;
+}
+
+#second{
+    font-size: 30px;
+}
+
+
+.text-overlays{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url(https://emerging-europe.com/wp-content/uploads/2021/10/bigstock-tbilisi-georgia-august-432553958.jpeg);
+    width: 500px;
+    height:350px;
+    border-radius: 20px;
+}
+
+#third{
+    font-size: 50px;
+}
+
+#fourth{
+    font-size: 30px;
+}
+
+
+.text-overlayss{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url(https://imageio.forbes.com/i-forbesimg/media/lists/places/new-york-ny_416x416.jpg?format=jpg&height=416&width=416&fit=bounds);
+    width: 500px;
+    height:350px;
+    border-radius: 20px;
+}
+
+#fifth{
+    font-size: 50px;
+}
+
+#sixth{
+    font-size: 30px;
+}
+
+.text-overlaysss{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/1c/9c.jpg);
+    width: 500px;
+    height:350px;
+    border-radius: 20px;
+}
+
+#seventh{
+    font-size: 50px;
+}
+
+#eighth{
+    font-size: 30px;
+}
+
+.text-overlayssss{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url(https://i.pinimg.com/736x/3d/9c/38/3d9c387ca3a8d14c6b2c344bf9984f1e.jpg);
+    width: 500px;
+    height:350px;
+    border-radius: 20px;
+}
+
+#ninth{
+    font-size: 50px;
+}
+
+#tenth{
+    font-size: 30px;
+}
+
+.text-overlaysssss{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url(https://www.mediastorehouse.com/p/251/united-arab-emirates-uae-dubai-19504691.jpg.webp);
+    width: 500px;
+    height:350px;
+    border-radius: 20px;
+}
+
+#eleventh{
+    font-size: 50px;
+}
+
+#twelveth{
+    font-size: 30px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
