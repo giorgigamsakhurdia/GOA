@@ -1,0 +1,38 @@
+.full{
+    background-color: rgb(36, 33, 33);
+    height: 100px;
+}
+
+#name{
+
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.mid{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+button{
+    border: none;
+    color: white;
+    background-color: rgb(39, 72, 122);
+    border-radius: 20px;
+    width: 100px;
+}
+
+
+p{
+    color: white;
+}
+
+#s{
+    position: fixed;
+    background-color: bisque;
+    width: 350px;
+    height: 250px;
+}

@@ -1,0 +1,56 @@
+body{
+    min-height: 200vh;
+}
+
+.full{
+    background-color: rgb(36, 33, 33);
+    height: 100px;
+}
+
+#name{
+
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.mid{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+button:hover{
+    background-color: black;
+}
+button{
+    border: none;
+    color: white;
+    background-color: rgb(39, 72, 122);
+    border-radius: 20px;
+    width: 100px;
+}
+
+
+p{
+    color: white;
+}
+
+.bg_image{
+    position: fixed;
+    background-image: url(https://i.pinimg.com/736x/ab/f5/a3/abf5a351dc1dbef4cb2c625cf6b6a975.jpg);
+    width: 736px;
+    height: 736px;
+}
+
+
+
+.mid_bar{
+    font-family: sans-serif;
+    display: flex;
+    gap: 40px;
+}
+
+
+    
+
