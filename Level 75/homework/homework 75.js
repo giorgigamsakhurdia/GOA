@@ -1,0 +1,1 @@
+console.log("ver mivxvdi kargad aq ra unda meqne da roca mecleba aucileblad mivwer liders")
