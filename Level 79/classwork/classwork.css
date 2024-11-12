@@ -1,0 +1,142 @@
+#YES{
+    position: relative;
+    left: 500px;
+    top: 400px;
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50px;
+    border-width: 3px;
+    border-color: brown;
+}
+
+
+#YES:active{
+    animation-name: biger;
+    animation-duration: 2s;
+
+}
+
+.d{
+    position: relative;
+    left: 600px;
+    top: 400px;
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50px;
+    border-width: 3px;
+    border-color: brown;
+}
+
+
+@keyframes biger {
+    25%{
+        background-color: brown;
+        border-color: green;
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+
+    100%{
+        transform: translateY(0px);
+        background-color: green;
+        border-color: brown;
+    }
+}
+
+
+
+.cube {
+    width: 50px;
+    height: 50px;
+    background-color: #3498db;
+    position: absolute;
+    animation: moveAround 8s linear infinite;
+}
+
+@keyframes moveAround {
+    0% { top: 0; left: 0; }
+    25% { top: 0; left: 90%; }
+    50% { top: 90%; left: 90%; }
+    75% { top: 90%; left: 0; }
+    100% { top: 0; left: 0; }
+}
+
+
+#but1{
+    font-size: 0.1px;
+}
+
+#but1:hover{
+    animation: bigger1 2s;
+}
+
+@keyframes bigger1 {
+    25%{
+        font-size: 20px;
+    }
+
+    50%{
+        font-size: 30px;
+    }
+
+    100%{
+        font-size: 50;
+    }
+}
+
+#but2{
+    font-size: 0.1px;
+}
+
+
+#but1{
+    font-size: 0.1px;
+}
+
+#but2:hover{
+    animation: bigger1 2s;
+}
+
+@keyframes bigger2 {
+    25%{
+        font-size: 20px;
+    }
+
+    50%{
+        font-size: 30px;
+    }
+
+    100%{
+        font-size: 50;
+    }
+}
+
+#but3{
+    font-size: 0.1px;
+}
+
+
+#but3{
+    font-size: 0.1px;
+}
+
+#but3:hover{
+    animation: bigger1 2s;
+}
+
+@keyframes bigger1 {
+    25%{
+        font-size: 20px;
+    }
+
+    50%{
+        font-size: 30px;
+    }
+
+    100%{
+        font-size: 50;
+    }
+}
