@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homework 85.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="div" style="width: 700px; aspect-ratio: 1; background-color: rgb(138, 212, 0); display: flex; justify-content: center; align-items: center;">
+        <div class="div1" style="width: 500px; aspect-ratio: 1; background-color: rgba(24, 105, 211, 0.904); display: flex; justify-content: center; align-items: center;">
+            <div class="div2" style="width: 250px; aspect-ratio: 1; background-color: blue; display: flex; justify-content: center; align-items: center;">
+                <div class = "div3" style="width: 125px; aspect-ratio: 1; background-color: blue; display: flex; justify-content: center; align-items: center;">
+                    <div class = "div4" style="width: 100px; aspect-ratio: 1; background-color: rgb(255, 0, 0); display: flex; justify-content: center; align-items: center;">
+                        <button class = "button" style="width: 51px; aspect-ratio: 1; background-color: rgb(248, 241, 241); color: rgb(0, 0, 0);">click</button>
+                    </div>
+                </div>
+            </div>        
+        </div>  
+    </div>      
+    <script>
+        document.getElementsByClassName("div")[0].addEventListener("click", function() {
+        console.log("div")
+    })
+
+        document.getElementsByClassName("div1")[0].addEventListener("click", function() {
+        console.log("div1")
+    })
+
+        document.getElementsByClassName("div2")[0].addEventListener("click", function(e) {
+        console.log("div2")
+    })
+        document.getElementsByClassName("div3")[0].addEventListener("click", function() {
+        console.log("div3")
+    })
+        document.getElementsByClassName("div4")[0].addEventListener("click", function(e) {
+        console.log("div4")
+    })
+        document.getElementsByClassName("div5")[0].addEventListener("click", function() {
+        console.log("div5")
+    })
+    </script>
+</body>
+</html>
