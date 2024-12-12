@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Clicker Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        #cookie {
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+        }
+        .stats {
+            margin: 20px 0;
+        }
+        button {
+            margin: 10px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cookie Clicker Game</h1>
+    <img src="https://via.placeholder.com/100" alt="Cookie" id="cookie">
+    <div class="stats">
+        <p>Cookies: <span id="cookies">0</span></p>
+        <p>Gold: <span id="gold">0</span></p>
+    </div>
+    <button id="biggerFinger">Buy Bigger Finger (50 Gold)</button>
+    <button id="betterMines">Buy Better Mines (100 Cookies)</button>
+    <button id="doubleCookies">Buy Double Cookies (200 Gold)</button>
+
+    <script>
+        let cookies = 0;
+        let gold = 0;
+        let cookiesPerClick = 1;
+        let goldPerClick = 1;
+        let biggerFingerCost = 50;
+        let betterMinesCost = 100;
+        let doubleCookiesCost = 200;
+
+        const cookieElement = document.getElementById('cookie');
+        const cookiesElement = document.getElementById('cookies');
+        const goldElement = document.getElementById('gold');
+        const biggerFingerButton = document.getElementById('biggerFinger');
+        const betterMinesButton = document.getElementById('betterMines');
+        const doubleCookiesButton = document.getElementById('doubleCookies');
+
+        cookieElement.addEventListener('click', () => {
+            cookies += cookiesPerClick;
+            gold += goldPerClick;
+            updateDisplay();
+        });
+
+        biggerFingerButton.addEventListener('click', () => {
+            if (gold >= biggerFingerCost) {
+                gold -= biggerFingerCost;
+                cookiesPerClick += 1;
+                biggerFingerCost *= 2;
+                biggerFingerButton.textContent = `Buy Bigger Finger (${biggerFingerCost} Gold)`;
+                updateDisplay();
+            } else {
+                alert('Not enough Gold!');
+            }
+        });
+
+        betterMinesButton.addEventListener('click', () => {
+            if (cookies >= betterMinesCost) {
+                cookies -= betterMinesCost;
+                goldPerClick += 1;
+                betterMinesCost *= 2;
+                betterMinesButton.textContent = `Buy Better Mines (${betterMinesCost} Cookies)`;
+                updateDisplay();
+            } else {
+                alert('Not enough Cookies!');
+            }
+        });
+
+        doubleCookiesButton.addEventListener('click', () => {
+            if (gold >= doubleCookiesCost) {
+                gold -= doubleCookiesCost;
+                cookiesPerClick *= 2;
+                doubleCookiesCost *= 2;
+                doubleCookiesButton.textContent = `Buy Double Cookies (${doubleCookiesCost} Gold)`;
+                updateDisplay();
+            } else {
+                alert('Not enough Gold!');
+            }
+        });
+
+        function updateDisplay() {
+            cookiesElement.textContent = cookies;
+            goldElement.textContent = gold;
+        }
+    </script>
+</body>
+</html>

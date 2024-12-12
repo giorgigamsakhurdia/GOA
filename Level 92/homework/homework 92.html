@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        input {
+            padding: 10px;
+            font-size: 16px;
+            margin: 10px;
+            width: 300px;
+        }
+        #password {
+            border: 1px solid #ccc;
+        }
+        .strength {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .low {
+            background-color: red;
+            color: white;
+        }
+        .medium {
+            background-color: yellow;
+            color: black;
+        }
+        .strong {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Password Strength Checker</h1>
+    <input type="password" id="password" placeholder="Enter your password">
+    <div id="strength" class="strength">Strength: </div>
+
+    <script>
+        const passwordInput = document.getElementById('password');
+        const strengthDiv = document.getElementById('strength');
+
+        passwordInput.addEventListener('input', () => {
+            const password = passwordInput.value;
+            const strength = evaluatePasswordStrength(password);
+
+            strengthDiv.textContent = `Strength: ${strength}`;
+            strengthDiv.className = `strength ${strength.toLowerCase()}`;
+        });
+
+        function evaluatePasswordStrength(password) {
+            if (password.length >= 10 && /[A-Z]/.test(password) && /\d/.test(password) && /[!@#$%^&*]/.test(password)) {
+                return 'Strong';
+            } else if (password.length >= 8 && (/[A-Z]/.test(password) || /\d/.test(password))) {
+                return 'Medium';
+            } else if (password.length >= 6) {
+                return 'Low';
+            } else {
+                return 'Low';
+            }
+        }
+    </script>
+</body>
+</html>

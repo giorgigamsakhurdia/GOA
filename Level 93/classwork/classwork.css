@@ -1,0 +1,41 @@
+#full{
+    position: relative;
+    left: 700px;
+    top: 250px;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
+
+
+#title{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+
+
+#box{
+    position: relative;
+    left: 160px;
+}
+
+#inc{
+    position: relative;
+    top: 100px;
+    right: 30px;
+    background-color: aliceblue;
+    color: blueviolet;
+    width: 200px;
+    height: 50px;
+}
+
+#dec{
+    position: relative;
+    top: 150px;
+    left: 150px;
+    background-color: aliceblue;
+    color: blueviolet;
+    width: 200px;
+    height: 50px;
+}
