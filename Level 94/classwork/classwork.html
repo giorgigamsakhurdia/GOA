@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            animation-name: changecolor;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes changecolor{
+                20%{
+                    background-color: blue;
+                }
+                40%{
+                    background-color: red;
+                }
+                60%{
+                    background-color: green;
+                }
+                80%{
+                    background-color: yellow;
+                }
+                100%{
+                    background-color: purple;
+                }
+            
+            }
+
+        #yes{
+            background-color: white;
+            width: 100px;
+            height: 100px;
+        }
+        #yes:hover{
+            background-color: transparent;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+
+    <button id = "yes">CLICK ME</button>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 700px;
+  }
+  
+  .header {
+    background-color: hotpink;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+  }
+  
+  .item {
+    background-color: pink;
+    flex-basis: 33%;
+    height: 100px;
+  }
+  
+  @media (max-width: 900px) {
+    .item {
+      flex-basis: 48%; 
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .item {
+      flex-basis: 100%; 
+    }
+  }
